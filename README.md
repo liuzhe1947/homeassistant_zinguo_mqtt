@@ -7,7 +7,8 @@
 
 	由于ha版本不停迭代，造成维护不及时，造成无法使用等一些问题。本人也由于时间原因也暂时搁置。
 
-	Hassbian 论坛也有大佬写了node-red 插件 挽救了个别用户 在此表示感谢https://github.com/yaming116/node-red-contrib-zinguo 
+	Hassbian 论坛也有大佬写了node-red 插件 挽救了个别用户 在此表示感谢
+	https://github.com/yaming116/node-red-contrib-zinguo 
 
 新的开始：
 
@@ -22,6 +23,7 @@
 已支持接入的开源智能家居平台
 
 1.Home Assistant：
+
 		Home Assistant 是一款基于 Python 的智能家居开源系统，支持众多品牌的智能家居设备，可以轻松实现设备的语音控制、自动化等。
 		
 		官方网站：https://www.home-assistant.io/

@@ -66,10 +66,12 @@
  
 致谢：
   以下排名不分先后，为随机。
-  老妖：SC09A驱动编写，SC09A 测试DEMO
-  https://github.com/smarthomefans/zinguo_smart_switch
+  老妖：SC09A驱动编写，SC09A 测试DEMO https://github.com/smarthomefans/zinguo_smart_switch
+  
   楓づ回憶：提供硬件与后期代码测试与更改
+  
   快乐的猪：修复代码bug与mqtt部分
+  
   NoThing ：前期画制原理图、测试引脚走向、协议分析、代码编写
 
 免责申明：

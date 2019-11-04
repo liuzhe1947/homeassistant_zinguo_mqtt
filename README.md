@@ -7,17 +7,20 @@
 
 	由于ha版本不停迭代，造成维护不及时，造成无法使用等一些问题。本人也由于时间原因也暂时搁置。
 
-	Hassbian 论坛也有大佬写了node-red 插件 挽救了个别用户 在此表示感谢 https://github.com/yaming116/node-red-contrib-zinguo 
+	Hassbian 论坛也有大佬写了node-red 插件 挽救了个别用户 在此表示感谢https://github.com/yaming116/node-red-contrib-zinguo 
 
 新的开始：
+
 	上次与我一起上车的童鞋都知道，硬件是ESP8266方案。（官方解释升级硬件是因为某些原因会出现触摸失灵）
     注：插件是否支持新版本ESP8285未验证。
 
 硬件分支：
+
 	ESP8266版：暂时放弃完善代码，会编程的大佬可以联系我提供DEMO代码与图纸。
 	新款ESP8285 版本现在已经基本完善，后期我们会持续更新该固件。
 
 已支持接入的开源智能家居平台
+
 1.Home Assistant：
 		Home Assistant 是一款基于 Python 的智能家居开源系统，支持众多品牌的智能家居设备，可以轻松实现设备的语音控制、自动化等。
 		

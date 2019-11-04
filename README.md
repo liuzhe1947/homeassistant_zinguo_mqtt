@@ -7,7 +7,8 @@
 
 	由于ha版本不停迭代，造成维护不及时，造成无法使用等一些问题。本人也由于时间原因也暂时搁置。
 
-	Hassbian 论坛也有大佬写了node-red 插件 挽救了个别用户 在此表示感谢 https://github.com/yaming116/node-red-contrib-zinguo 
+	Hassbian 论坛也有大佬写了node-red 插件 挽救了个别用户 在此表示感谢 
+	https://github.com/yaming116/node-red-contrib-zinguo 
 
 新的开始：
 

@@ -10,10 +10,12 @@
    Hassbian 论坛也有大佬写了node-red 插件 挽救了个别用户 在此表示感谢 https://github.com/yaming116/node-red-contrib-zinguo 
 
 新的开始：
+
   上次与我一起上车的童鞋都知道，硬件是ESP8266方案。（官方解释升级硬件是因为某些原因会出现触摸失灵）
 注：插件是否支持新版本ESP8285未验证。
 
 硬件分支：
+
   ESP8266版：暂时放弃完善代码，会编程的大佬可以联系我提供DEMO代码与图纸。
   新款ESP8285 版本现在已经基本完善，后期我们会持续更新该固件。
 
@@ -31,17 +33,22 @@
     3.配置Home Assistant
 
   变更日志：
-    1.0 
+    	1.0 
 	    初始版本
+	    
 	1.1
 	    单电机本地版本，联动，等
+	    
 	1.2
 		新增mqtt 修复MQTT控制与当前的按钮开关不一致问题，MQTTCallback增加了对MQTT的payload的信息判断 
+		
 	1.2.1
+	
 		新增 MQTT设备名配置（支持多设备）
 		新增 单双电机配置 
 		新增 新增联动配置
 		新增 新增风铃开关配置
+		
 		
 	在线升级：
 		HTTPWebUpdater
@@ -64,6 +71,7 @@ ioBroker中国 https://doc.iobroker.cn/#/_zh-cn/
 
 
 主要硬件清单：
+
   SC09A：* 1
   
   ESP8285：* 1

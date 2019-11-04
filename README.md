@@ -3,7 +3,7 @@
 峥果浴霸开关-ESP8285 自制固件接入开源智能家居平台
 
 前言：
-	前期本人与其他大佬共同编写了python插件 https://github.com/gexing147/homeassistant_zinguo。
+	前期本人与其他大佬共同编写了python插件https://github.com/gexing147/homeassistant_zinguo。
 
 	由于ha版本不停迭代，造成维护不及时，造成无法使用等一些问题。本人也由于时间原因也暂时搁置。
 
@@ -20,7 +20,9 @@
 已支持接入的开源智能家居平台
 1.Home Assistant：
 		Home Assistant 是一款基于 Python 的智能家居开源系统，支持众多品牌的智能家居设备，可以轻松实现设备的语音控制、自动化等。
+		
 		官方网站：https://www.home-assistant.io/
+		
 		国内论坛：https://bbs.hassbian.com/forum.php
 
 	接入方法：
@@ -46,6 +48,7 @@
 		输入IP登陆在线升级网站，账号密码与mqtt一致
 2、ioBroker
 	ioBroker是基于nodejs的物联网的集成平台，为物联网设备提供核心服务，系统管理和统一操作方式。
+	
 	ioBroker中国 https://doc.iobroker.cn/#/_zh-cn/
 
 	接入方法

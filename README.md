@@ -20,6 +20,7 @@
 已支持接入的开源智能家居平台
 
 1.Home Assistant：
+
   Home Assistant 是一款基于 Python 的智能家居开源系统，支持众多品牌的智能家居设备，可以轻松实现设备的语音控制、自动化等。
   官方网站：https://www.home-assistant.io/
   国内论坛：https://bbs.hassbian.com/forum.php
@@ -47,7 +48,9 @@
 		输入IP登陆在线升级网站，账号密码与mqtt一致
 
 2、ioBroker
+
 ioBroker是基于nodejs的物联网的集成平台，为物联网设备提供核心服务，系统管理和统一操作方式。
+
 ioBroker中国 https://doc.iobroker.cn/#/_zh-cn/
 
   接入方法
@@ -62,17 +65,25 @@ ioBroker中国 https://doc.iobroker.cn/#/_zh-cn/
 
 主要硬件清单：
   SC09A：* 1
+  
   ESP8285：* 1
+  
   数码管：* 1
+  
   74HC595D：* 2
  
 致谢：
   以下排名不分先后，为随机。
+  
   老妖：SC09A驱动编写，SC09A 测试DEMO
   https://github.com/smarthomefans/zinguo_smart_switch
+  
   楓づ回憶：提供硬件与后期代码测试与更改
+  
   快乐的猪：修复代码bug与mqtt部分
+  
   NoThing ：前期画制原理图、测试引脚走向、协议分析、代码编写
+  
 
 免责申明：
   以上纯属个人爱好，因为使用上述方法造成的任何问题，不承担任何责任。

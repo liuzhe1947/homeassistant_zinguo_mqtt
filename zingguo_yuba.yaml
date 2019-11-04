@@ -1,0 +1,74 @@
+﻿switch:
+  - platform: mqtt
+    name: erlougongce_light_switch
+    state_topic: "ZINGUO/YB1/1"
+    command_topic: "ZINGUO/YB1/1/set"
+    payload_on: "1"
+    payload_off: "0"
+    
+  - platform: mqtt
+    name: erlougongce_ventilation_switch
+    state_topic: "ZINGUO/YB1/2"
+    command_topic: "ZINGUO/YB1/2/set"
+    payload_on: "1"
+    payload_off: "0"  
+
+    
+  - platform: mqtt
+    name: erlougongce_warming_switch2
+    state_topic: "ZINGUO/YB1/6"
+    command_topic: "ZINGUO/YB1/6/set"
+    payload_on: "1"
+    payload_off: "0"
+    
+  - platform: mqtt
+    name: erlougongce_wind_switch
+    state_topic: "ZINGUO/YB1/7"
+    command_topic: "ZINGUO/YB1/7/set"
+    payload_on: "1"
+    payload_off: "0"   
+    
+  - platform: mqtt
+    name: erlougongce_warming_switch1
+    state_topic: "ZINGUO/YB1/8"
+    command_topic: "ZINGUO/YB1/8/set"
+    payload_on: "1"
+    payload_off: "0" 
+       
+sensor:
+  - platform: mqtt
+    name: erlougongce_yuba_wendu
+    state_topic: "ZINGUO/YB1/temp"
+    unit_of_measurement: °C
+
+
+homeassistant:
+  customize:
+    sensor.erlougongce_yuba_wendu:
+      friendly_name: 温度
+    switch.erlougongce_ventilation_switch:
+      icon: mdi:fan
+      friendly_name: 换气
+    switch.erlougongce_light_switch:
+      icon: mdi:lightbulb
+      friendly_name: 照明
+    switch.erlougongce_wind_switch:
+      icon: mdi:fan
+      friendly_name: 吹风
+    switch.erlougongce_warming_switch1:
+      icon: mdi:radiator
+      friendly_name: 暖I
+    switch.erlougongce_warming_switch2:
+      icon: mdi:radiator
+      friendly_name: 暖II
+    
+group:
+  yuba:
+    name: '浴霸开关'
+    entities:
+      - sensor.erlougongce_yuba_wendu
+      - switch.erlougongce_light_switch
+      - switch.erlougongce_ventilation_switch
+      - switch.erlougongce_wind_switch
+      - switch.erlougongce_warming_switch1
+      - switch.erlougongce_warming_switch2      
